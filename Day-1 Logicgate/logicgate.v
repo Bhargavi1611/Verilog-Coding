@@ -23,12 +23,12 @@ module logicgate(output reg y1, y2, y3, y4, y5, y6, y7, input a, b);
 
   always @ *
   begin
-    y1 = a & b;
-    y2 = a | b;
-    y3 = ~a;
-    y4 = ~(a & b);
-    y5 = a ^ b;
-    y6 = ~(a | b);
-    y7 = ~(a ^ b);
+    y1 = a & b;//and gate
+    y2 = a | b;// or gate
+    y3 = ~a;// not gate
+    y4 = ~(a & b);// nand gate
+    y5 = a ^ b;//xorgate
+    y6 = ~(a | b);//nor gate
+    y7 = ~(a ^ b);//xnor gate
   end
 endmodule
