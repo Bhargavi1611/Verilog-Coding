@@ -21,12 +21,12 @@
 
 
 module ripplecarryadder(s,cout,a,b,cin);
-input [3:0] a,b;
+  input [3:0] a,b;//4-bit bus 
 input cin;
-output [3:0]s;
+  output [3:0]s;//we get 4 sum outputs so we took 4-bit bus 
 output cout;
 //always @ (a,b,cin)
-assign {cout,s}=a+b+cin;
+  assign {cout,s}=a+b+cin;//data flow model//using concatenation operator
 endmodule
 
 
