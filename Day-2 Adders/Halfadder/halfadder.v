@@ -21,10 +21,10 @@
 
 
 module halfadder(output reg s,c,input a,b);
-    always @ *
+    always @ * //using behavioral model 
     begin 
-    s=a^b;
-    c=a&b;
+    s=a^b;//xor operation
+    c=a&b;//and operation
     end
     
 endmodule
