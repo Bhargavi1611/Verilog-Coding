@@ -1,0 +1,4 @@
+Half adder is a combinational circuit that performs binary addition of two inputs which gives output as sum and carry 
+we get sum is obtained  xor operation of two inputs and carry is obtained by doing AND operation of two inputs.
+ sum =a^b;
+carry=a&b;
