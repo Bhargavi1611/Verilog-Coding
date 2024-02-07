@@ -21,10 +21,10 @@
 
 
 module fulladder(output reg s,c,input a,b,cin);
-always @ *
+always @ * //declaration in behavioral model
 begin
-s=a^b^cin;
-c=a&b|b&cin|cin&a;
+s=a^b^cin;//xor operation//sum
+c=a&b|b&cin|cin&a;//carry 
 end
 endmodule
 
