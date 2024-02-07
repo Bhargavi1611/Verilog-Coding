@@ -30,11 +30,11 @@ initial
 $monitor("a=%0b b=%0b cin=%0b s=%0b cout=%0b",a,b,cin,s,cout);
 initial begin
 a=0;b=0;cin=0;
-repeat(16) begin
-#10 a=a+1;
-repeat(16) begin
-#10 b=b+1;
-repeat(2)
+  repeat(16) begin //the loop repeat the following block 16 times
+#10 a=a+1;//increment the value of a by 1 after every 10 time units 
+    repeat(16) begin//the loop repeat the following block 16 times
+#10 b=b+1;//increment the value of b by 1 after every 10 time units 
+  repeat(2)//the loop repeat the following  block 2 times
 #10 cin=~cin;
 end //repeat(16)
 end //repeat(16)
