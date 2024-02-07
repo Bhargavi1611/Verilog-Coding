@@ -1,0 +1,4 @@
+
+A full adder is a combinational circuit that has two AND gates, two EX-OR gates, and one OR gate. The full adder adds three binary digits. Among all the three, one is the carry that we obtain from the previous addition as C-IN, and the two are inputs A and B.
+let a,b,cin are inputs and s,cout are outputs.
+then s=a^b^cin and c=a&b|b&cin|cin&a
