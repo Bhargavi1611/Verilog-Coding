@@ -1,0 +1,5 @@
+
+A ripple carry adder is a digital circuit that produces the arithmetic sum of two binary numbers. It. can be constructed with full adders connected in cascaded with the carry output. from each full adder connected to the carry input of the next full adder in the chain.The carry out of first full adder is given as the input for the next full adder and the process continues.It is constructed by using 4-fulladders.
+ Here in the main code we use data flow modelling and performed concatenation operator to perform sum and carry .
+
+In Verilog, the concatenation operator {} is used to combine multiple variables, expressions, or bits into a single vector or bus. It is often used for creating multi-bit values or for specifying a range of bits within a vector.
