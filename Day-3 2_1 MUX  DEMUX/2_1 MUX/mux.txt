@@ -1,0 +1,7 @@
+Multiplexer is a combinational circuit that has maximum of 2n data inputs, ‘n’ selection lines and single output line. One of these data inputs will be connected to the output based on the values of selection lines.
+
+Since there are ‘n’ selection lines, there will be 2n possible combinations of zeros and ones. So, each combination will select only one data input. Multiplexer is also called as Mux.
+
+A 2-to-1 multiplexer is a circuit that has two inputs, one select input, and one output. The output is connected to either of the inputs based on the select signal. Depends on the select signal, the output is connected to either of the inputs. Since there are two input signals only two ways are possible to connect the inputs to the outputs, so one select is needed to do these operations.
+
+
