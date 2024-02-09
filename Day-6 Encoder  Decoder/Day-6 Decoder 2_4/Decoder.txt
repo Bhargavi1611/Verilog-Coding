@@ -1,0 +1,1 @@
+A decoder is a combinational logic circuit that has 'n' input signal lines and 2n output lines. In the 2:4 decoder, we have 2 input lines and 4 output lines. In addition, we provide 'enable' to the input to ensure the decoder is functioning whenever enable is 1 and it is turned off when enable is 0.

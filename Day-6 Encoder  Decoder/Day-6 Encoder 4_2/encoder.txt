@@ -1,0 +1,8 @@
+An Encoder is a combinational circuit that performs the reverse operation of a Decoder. It has a maximum of 2^n input lines and ‘n’ output lines, hence it encodes the information from 2^n inputs into an n-bit code. It will produce a binary code equivalent to the input, which is active High. Therefore, the encoder encodes 2^n input lines with ‘n’ bits. 
+
+Types of Encoders
+There are different types of Encoders which are mentioned below.
+4 to 2 Encoder
+Octal to Binary Encoder (8 to 3 Encoder)
+Decimal to BCD Encoder
+Priority Encoder
