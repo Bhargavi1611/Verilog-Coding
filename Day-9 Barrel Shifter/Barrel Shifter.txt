@@ -1,0 +1,3 @@
+A barrel shifter is a digital circuit that can shift a data word by a specified number of bits in one clock cycle. It uses pure combinational logic, meaning it only uses pure combinational logic, and not any sequential logic. 
+Barrel shifters are often used in digital signal processing, cryptography, and microprocessor architectures. They are implemented with a sequence of shift multiplexers, each shifting a word by 2k bit positions for different values of k. 
+Barrel shifters can shift/rotate 16-bit input data from 0 to 15 bits to the left/right, and send the result to the output. The shift operation is controlled by 6 bits: Four bits for the length, one bit for direction, and one bit for type (shift/rotate). 
