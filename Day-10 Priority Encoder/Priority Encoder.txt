@@ -1,0 +1,5 @@
+A priority encoder is a digital circuit that takes a set of input signals and generates a unique binary code. It's used in digital systems for many purposes, including:
+1)Address decoding
+2)Data multiplexing
+3)Control signal generation 
+A priority encoder is a circuit or algorithm that compresses multiple binary inputs into a smaller number of outputs. The logic of a priority encoder is such that if two or more inputs appear at an equal time, the input with the largest priority will take precedence. 
