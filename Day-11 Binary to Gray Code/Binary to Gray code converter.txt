@@ -1,0 +1,2 @@
+The Binary to Gray code converter is a logical circuit that is used to convert the binary code into its equivalent Gray code. By putting the MSB of 1 below the axis and the MSB of 1 above the axis and reflecting the (n-1) bit code about an axis after 2n-1 rows, we can obtain the n-bit gray code.
+  Nothing but applying xor operation between the bits of binary number to get grey code number and vice-versa
