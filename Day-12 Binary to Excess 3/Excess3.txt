@@ -1,0 +1,5 @@
+The excess-3 code plays an important role in representing the decimal numbers. The Excess-3 code can also be represented as the XS-3 code. In Excess-3 code, each digit of the decimal number is represented by adding 3 in each decimal digit. There are the following steps to convert the binary number into Excess-3 code:
+
+1.Convert the binary number into decimal.
+2.Add 3 in each digit of the decimal number.
+3.Find the binary code of each digit of the newly generated decimal number.
