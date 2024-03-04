@@ -1,0 +1,3 @@
+The 4-bit counter starts incrementing from 4'b0000 to 4'h1111 and come back to 4'b0000. It will keep counting as long as it is provided with a running clock, and reset is held high.
+
+The rollover happens when the most significant bit of the final addition gets discarded. When the counter is at a maximum value of 4'h1111 and gets one more count request, the counter tries to reach 5'b10000, but since it can support only 4-bits, the MSB will be discarded, resulting in 0.
