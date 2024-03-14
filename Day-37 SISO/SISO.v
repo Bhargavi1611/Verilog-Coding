@@ -1,0 +1,40 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 14.03.2024 22:03:53
+// Design Name: 
+// Module Name: SISO
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+module df(clk,d,q);
+input clk;
+input d;
+output reg q=0;
+always @(posedge clk )
+begin
+q<=d;
+end
+endmodule
+module SISO(clk,d,q);
+input clk;
+input d;
+output q;
+wire q1,q2,q3;
+df df0(d,clk,q1);
+df df1(q1,clk,q2);
+df df2(q2,clk,q3);
+df df3(q3,clk,q);
+endmodule
