@@ -28,15 +28,15 @@ wire [7:0] out;
 barrelshift dut(out,In,n,Lr);
 initial begin
 $monitor("In=%0b n=%0b Lr=%0b out=%0b",In,n,Lr,out);
-In=8'd0;n=3'b0;//no shift 
+In=8'd0;n=3'd0;Lr=0;//no shift 
 #10; 
-  In=8'd128;n= 3'd4; //shift 4 bit
+  In=8'd128;n= 3'd4;Lr=1; //shift 4 bit
   #10;
-  In=8'd128;n= 3'd2; //shift 2 bit
+  In=8'd128;n= 3'd2;Lr=0; //shift 2 bit
   #10;
-   In=8'd128;n= 3'd1; //shift by 1 bit
+   In=8'd128;n= 3'd1;Lr=0; //shift by 1 bit
   #10;
-   In=8'd255;n= 3'd7; //shift by 7bit
+   In=8'd255;n= 3'd7;Lr=0; //shift by 7bit
    #10;
   end
 endmodule
