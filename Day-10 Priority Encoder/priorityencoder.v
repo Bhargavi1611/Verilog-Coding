@@ -23,7 +23,7 @@
 module priorityencoder(Y,V,I);
 input [3:0] I;
 output reg [1:0] Y;
-output reg V;
+output reg V;//This is a single bit that indicates whether any input is active. It's often referred to as the "valid" signal.
 always @ *
 begin
 if(I[0]) {V,Y}=3'b100;
